@@ -1,0 +1,86 @@
+.root{
+    -fx-background-color: #1e1e2f;
+    -fx-padding: 40;
+}
+
+.title{
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field,
+.password-field{
+    -fx-background-radius: 10;
+    -fx-font-size: 14px;
+    -fx-pref-height: 40;
+}
+
+.login-button{
+    -fx-background-color: #4f46e5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-pref-height: 40;
+}
+
+.login-button:hover{
+    -fx-background-color: #6366f1;
+}
+
+.dashboard-root {
+    -fx-background-color: #1e1e2f;
+}
+
+.sidebar {
+    -fx-background-color: #111827;
+    -fx-pref-width: 190;
+}
+
+.sidebar-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d1d5db;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.logout-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
+
+.content {
+    -fx-background-color: #1e1e2f;
+}
+
+.page-title {
+    -fx-text-fill: white;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.stat-card {
+    -fx-background-color: #2d2d44;
+    -fx-background-radius: 15;
+    -fx-padding: 25;
+    -fx-pref-width: 220;
+}
+
+.stat-title {
+    -fx-text-fill: #cbd5e1;
+    -fx-font-size: 14px;
+}
+
+.stat-number {
+    -fx-text-fill: white;
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+}
