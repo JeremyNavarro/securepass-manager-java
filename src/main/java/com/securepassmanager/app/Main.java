@@ -5,11 +5,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import com.securepassmanager.repository.DatabaseInitializer;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+        DatabaseInitializer.initializeDatabase();
 
         Parent root = FXMLLoader.load(
                 getClass().getResource("/fxml/login.fxml")
